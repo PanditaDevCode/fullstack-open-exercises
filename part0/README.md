@@ -6,7 +6,7 @@ sequenceDiagram
     participant Navegador
     participant Servidor
 
-    Usuario->>Navegador: Escribe texto y presiona en "Enviar"
+    Usuario->>Navegador: Escribe texto y presiona en "Guardar"
     Navegador->>Servidor: Enviar solicitud POST con el nuevo texto
     Servidor-->>Navegador: Responde con redireccionar (302)
     Navegador->>Servidor: Solicita la lista de las notas
