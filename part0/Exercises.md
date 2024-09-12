@@ -1,3 +1,7 @@
+# Ejercicio 0.6 - Nueva Nota Pagina SPA
+
+```mermaid
+
 sequenceDiagram
     participant Usuario
     participant Navegador
