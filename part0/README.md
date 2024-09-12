@@ -1,3 +1,6 @@
+# Ejercicio 0.4 - Crear nueva nota
+
+```mermaid
 sequenceDiagram
     participant Usuario
     participant Navegador
