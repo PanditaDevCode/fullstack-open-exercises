@@ -1,6 +1,6 @@
-const Header = (porps) => {
+const Header = (props) => {
   return (
-    <h1> {porps.course} </h1>
+    <h1> {props.course} </h1>
   )
 }
 
@@ -18,7 +18,7 @@ const Total = (props) => {
   return (
     <p>Total de Ejercicios: {props.totalExercises} </p>
   )
-}
+} 
 
 const Part = (props) => {
   return (
